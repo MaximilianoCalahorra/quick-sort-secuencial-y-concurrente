@@ -6,7 +6,7 @@ public class QuickSortSecuencial
 	//Quick Sort:
 	public void quickSort(int arr[], int begin, int end)
 	{
-		//Realizamos el algoritmo solo si la posición indicada como inicio del vector es anterior a la indicada como última:
+	    //Realizamos el algoritmo solo si la posición indicada como inicio del vector es anterior a la indicada como última:
 	    if(begin < end)
 	    {
 	        int partitionIndex = partition(arr, begin, end); //Obtenemos el índice de partición del vector.
